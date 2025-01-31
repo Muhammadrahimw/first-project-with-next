@@ -15,11 +15,21 @@ export const HeaderComponent = () => {
 						alt="logo"
 					/>
 				</Link>
-				<p className="cursor-pointer">menu 1</p>
-				<p className="cursor-pointer">menu 2</p>
-				<p className="cursor-pointer">menu 3</p>
-				<p className="cursor-pointer">menu 4</p>
-				<p className="cursor-pointer">menu 5</p>
+				<Link href={`/contact`}>
+					<p className="cursor-pointer">Contact</p>
+				</Link>
+				<Link href={`/menu`}>
+					<p className="cursor-pointer">menu 2</p>
+				</Link>
+				<Link href={`/menu`}>
+					<p className="cursor-pointer">menu 3</p>
+				</Link>
+				<Link href={`/menu`}>
+					<p className="cursor-pointer">menu 4</p>
+				</Link>
+				<Link href={`/menu`}>
+					<p className="cursor-pointer">menu 5</p>
+				</Link>
 			</nav>
 			<nav className="flex items-center gap-7">
 				<Link href={`/login`}>

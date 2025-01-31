@@ -5,7 +5,6 @@ const Register = () => {
 	return (
 		<>
 			<RegisterComponent />
-			<FooterComponent />
 		</>
 	);
 };
