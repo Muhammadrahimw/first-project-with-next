@@ -27,11 +27,13 @@ export const HeaderComponent = () => {
 						LOGIN
 					</button>
 				</Link>
-				<button
-					type="button"
-					className="px-4 py-1 rounded bg-orange-400 text-white font-medium">
-					REGISTER
-				</button>
+				<Link href={`/register`}>
+					<button
+						type="button"
+						className="px-4 py-1 rounded bg-orange-400 text-white font-medium">
+						REGISTER
+					</button>
+				</Link>
 				<div className="h-7 border-l border-gray-400"></div>
 				<SettingOutlined className="text-2xl cursor-pointer ml-[-0.4em]" />
 			</nav>
